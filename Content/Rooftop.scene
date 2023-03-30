@@ -1,0 +1,2261 @@
+{
+	"ID": "c2322ae9457764ca31d7c791871c8223",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6338,
+	"Data": [
+		{
+			"ID": "c2322ae9457764ca31d7c791871c8223",
+			"TypeName": "FlaxEngine.Scene",
+			"Name": "Game",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "6946130441f49553b8f2939f030d639a",
+			"TypeName": "Game.SceneRoot",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223"
+		},
+		{
+			"ID": "6d9902ae4cacbaa94544108a4f1c7582",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SkyLight",
+			"Color": {
+				"R": 0.31373000144958498,
+				"G": 0.47843000292778017,
+				"B": 0.6039199829101563,
+				"A": 0.11765000224113465
+			},
+			"Brightness": 5.0,
+			"AdditiveColor": {
+				"R": 0.20392000675201417,
+				"G": 0.30979999899864199,
+				"B": 0.3882400095462799,
+				"A": 0.03922000154852867
+			},
+			"BakedProbe": "f202b60240963c85e656c19f0727afa6",
+			"Mode": 0,
+			"CustomTexture": "d8b7757d4ec8a82082916086256a160d"
+		},
+		{
+			"ID": "adff44e94e21d016c6cb2196de5f4892",
+			"TypeName": "FlaxEngine.Skybox",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "Skybox",
+			"Exposure": -3.0,
+			"CubeTexture": "d8b7757d4ec8a82082916086256a160d"
+		},
+		{
+			"ID": "0b34c58349d9240d07c5f182053efd31",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "DirectionalLight",
+			"Transform": {
+				"Orientation": {
+					"X": 0.11952564120292664,
+					"Y": -0.19371676445007325,
+					"Z": 0.0237854216247797,
+					"W": 0.9734585881233215
+				}
+			},
+			"Color": {
+				"R": 0.3137255012989044,
+				"G": 0.4745098054409027,
+				"B": 0.6000000238418579,
+				"A": 0.11764705926179886
+			},
+			"Brightness": 2.6000003814697267
+		},
+		{
+			"ID": "99ccc8ee413408de168ba2977c74ec7f",
+			"TypeName": "FlaxEngine.ExponentialHeightFog",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "ExponentialHeightFog",
+			"FogDensity": 0.004999995231628418,
+			"FogHeightFalloff": 0.1070999875664711,
+			"FogInscatteringColor": {
+				"R": 0.15294118225574494,
+				"G": 0.2549019753932953,
+				"B": 0.32156863808631899,
+				"A": 1.0
+			},
+			"DirectionalInscatteringLight": "0b34c58349d9240d07c5f182053efd31",
+			"DirectionalInscatteringExponent": 49.10000228881836,
+			"DirectionalInscatteringColor": {
+				"R": 0.25,
+				"G": 0.17380455136299134,
+				"B": 0.10985897481441498,
+				"A": 1.0
+			},
+			"VolumetricFogEnable": true,
+			"VolumetricFogScatteringDistribution": 0.8999999761581421
+		},
+		{
+			"ID": "5da6885541fe36943955cd8476bf65d6",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "final",
+			"Transform": {
+				"Translation": {
+					"X": -6405.8203125,
+					"Y": -5881.85791015625,
+					"Z": -8675.25390625
+				},
+				"Scale": {
+					"X": 104.0,
+					"Y": 104.0,
+					"Z": 104.0
+				}
+			},
+			"Model": "a067af6e46a052aba471748cf542964a",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "b2c2b738434127d7ce87359b3291e817",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 0,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 0,
+						"Visible": false,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "78a590674402cfda50558db1a5a6db0f",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "5da6885541fe36943955cd8476bf65d6",
+			"Name": "MeshCollider",
+			"CollisionData": "c1628b0a468b19fac88a4c9ba8f060dd"
+		},
+		{
+			"ID": "77fc5db04f7f0604454dada5e83d8327",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": -1071.603271484375,
+					"Y": 326.46270751953127,
+					"Z": -579.0681762695313
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 23.94000244140625,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 508.89996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "2ed7812142085c0a82e33182d3baf2e1",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight",
+			"Transform": {
+				"Translation": {
+					"X": -984.0,
+					"Y": 333.99432373046877,
+					"Z": -489.0
+				},
+				"Orientation": {
+					"X": -0.3319666385650635,
+					"Y": -0.6243381500244141,
+					"Z": -0.33196648955345156,
+					"W": 0.6243383884429932
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 10554.2998046875,
+			"VolumetricScatteringIntensity": 5.0,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 3000.0,
+			"OuterAngle": 21.899999618530275,
+			"InnerAngle": 5.0
+		},
+		{
+			"ID": "a1ea4d4b4540225a45e3499f5f6a8957",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 0",
+			"Transform": {
+				"Translation": {
+					"X": -340.00982666015627,
+					"Y": 326.46270751953127,
+					"Z": -877.9634399414063
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 508.89996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "f70dd1e34556125c07c685a447193495",
+			"TypeName": "FlaxEngine.PostFxVolume",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PostFxVolume",
+			"Size": {
+				"X": 5048.0,
+				"Y": 3909.0,
+				"Z": 6017.0
+			},
+			"Settings": {
+				"AO": {},
+				"GI": {},
+				"Bloom": {},
+				"ToneMapping": {},
+				"ColorGrading": {
+					"ColorSaturationMidtones": {
+						"X": 0.0,
+						"Y": 0.4494619369506836,
+						"Z": 1.0,
+						"W": 1.0
+					}
+				},
+				"EyeAdaptation": {
+					"OverrideFlags": 97,
+					"PostExposure": 3.070000171661377,
+					"MinBrightness": 0.15000000596046449,
+					"MaxBrightness": 0.12999999523162843
+				},
+				"CameraArtifacts": {},
+				"LensFlares": {},
+				"DepthOfField": {},
+				"MotionBlur": {},
+				"SSR": {},
+				"AA": {},
+				"PostFxMaterials": {}
+			}
+		},
+		{
+			"ID": "31a7415f46def9dd201718b225020a95",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 1",
+			"Transform": {
+				"Translation": {
+					"X": 303.99017333984377,
+					"Y": 326.46270751953127,
+					"Z": -877.9634399414063
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 508.89996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "5f3fb90541b84571dcbc1ebdd4f43744",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 2",
+			"Transform": {
+				"Translation": {
+					"X": -937.0098266601563,
+					"Y": 326.46270751953127,
+					"Z": -176.96343994140626
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "59c24fea4508aa9e2c02039d2235c845",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 3",
+			"Transform": {
+				"Translation": {
+					"X": -937.0098266601563,
+					"Y": 326.46270751953127,
+					"Z": 514.6904907226563
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "950af6a94c75558310fa9c87f91b8692",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 4",
+			"Transform": {
+				"Translation": {
+					"X": -1071.603271484375,
+					"Y": 326.46270751953127,
+					"Z": 915.8480834960938
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 23.94000244140625,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 508.89996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "a66a473d46106b016f29f08f5ff6b723",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 0",
+			"Transform": {
+				"Translation": {
+					"X": -980.0,
+					"Y": 333.99432373046877,
+					"Z": 829.2181396484375
+				},
+				"Orientation": {
+					"X": -0.3319665193557739,
+					"Y": 0.6243382096290588,
+					"Z": 0.3319666385650635,
+					"W": 0.6243382096290588
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 10554.2998046875,
+			"VolumetricScatteringIntensity": 5.0,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 3000.0,
+			"OuterAngle": 21.899999618530275,
+			"InnerAngle": 5.0
+		},
+		{
+			"ID": "6ace850e46f8c8c32100fc9cac3dbd4a",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 5",
+			"Transform": {
+				"Translation": {
+					"X": -344.00982666015627,
+					"Y": 322.46270751953127,
+					"Z": 1221.6904296875
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "28e2c75e442b2f0c5406a19f4d987d1c",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 6",
+			"Transform": {
+				"Translation": {
+					"X": 308.4532165527344,
+					"Y": 322.46270751953127,
+					"Z": 1218.2476806640626
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "f9fbe62a403378f14b40b88d52adef96",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 7",
+			"Transform": {
+				"Translation": {
+					"X": 1440.4532470703126,
+					"Y": 583.4627075195313,
+					"Z": 1069.2476806640626
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "8fdb62df4c88fdf0b95fd39c12dc9720",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 8",
+			"Transform": {
+				"Translation": {
+					"X": 1704.9039306640626,
+					"Y": 326.46270751953127,
+					"Z": 1133.7265625
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 23.94000244140625,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 508.89996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "5fb7b4634b037721b58f699b06ab61b1",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 9",
+			"Transform": {
+				"Translation": {
+					"X": 1704.0938720703126,
+					"Y": 326.46270751953127,
+					"Z": -578.126953125
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 23.94000244140625,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 508.89996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "8d08c2a9447ee39e25b4f1b6cd331eed",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 10",
+			"Transform": {
+				"Translation": {
+					"X": 1572.970458984375,
+					"Y": 322.46270751953127,
+					"Z": 524.449951171875
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "14ea6342457d24044ae454a9a0a17e38",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 11",
+			"Transform": {
+				"Translation": {
+					"X": 1570.970458984375,
+					"Y": 322.46270751953127,
+					"Z": -180.550048828125
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.2509799897670746,
+				"B": 0.12156999856233597,
+				"A": 1.0
+			},
+			"Brightness": 4.240001678466797,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 327.39996337890627,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "b09c4c2f4e3ff55d863804938efa9ba5",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 1",
+			"Transform": {
+				"Translation": {
+					"X": 844.0,
+					"Y": 596.9943237304688,
+					"Z": 667.2181396484375
+				},
+				"Orientation": {
+					"X": -0.3319665193557739,
+					"Y": 0.6243382096290588,
+					"Z": 0.3319666385650635,
+					"W": 0.6243382096290588
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 10554.2998046875,
+			"VolumetricScatteringIntensity": 5.0,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 3000.0,
+			"OuterAngle": 21.899999618530275,
+			"InnerAngle": 5.0
+		},
+		{
+			"ID": "4711b24849eb7d1522bcf29b36c14ed5",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 2",
+			"Transform": {
+				"Translation": {
+					"X": 1618.0,
+					"Y": 335.99432373046877,
+					"Z": -487.7818603515625
+				},
+				"Orientation": {
+					"X": -0.3319665193557739,
+					"Y": 0.6243382096290588,
+					"Z": 0.3319666385650635,
+					"W": 0.6243382096290588
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 10554.2998046875,
+			"VolumetricScatteringIntensity": 5.0,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 3000.0,
+			"OuterAngle": 21.899999618530275,
+			"InnerAngle": 5.0
+		},
+		{
+			"ID": "e33b14ea49654571c63254a09db6512a",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 12",
+			"Transform": {
+				"Translation": {
+					"X": 1017.9039306640625,
+					"Y": 416.46270751953127,
+					"Z": -86.2734375
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.9199800491333008,
+				"B": 0.8295699954032898,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 8.640003204345704,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 119.49996948242188,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "2ff51c174eb491d14f172198cacb542c",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 13",
+			"Transform": {
+				"Translation": {
+					"X": 1010.298095703125,
+					"Y": 416.46270751953127,
+					"Z": 185.89178466796876
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.9199800491333008,
+				"B": 0.8295699954032898,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 8.640003204345704,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 119.49996948242188,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "7394039740006895b2c3ebbbb661f7b7",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 14",
+			"Transform": {
+				"Translation": {
+					"X": 1016.128662109375,
+					"Y": 416.46270751953127,
+					"Z": 457.9495544433594
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.9199800491333008,
+				"B": 0.8295699954032898,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 8.640003204345704,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 119.49996948242188,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "b82f67024f9d3a8810dd2c8d345c5a3c",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 15",
+			"Transform": {
+				"Translation": {
+					"X": 1232.128662109375,
+					"Y": 416.46270751953127,
+					"Z": 463.9495544433594
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.9199800491333008,
+				"B": 0.8295699954032898,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 8.640003204345704,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 119.49996948242188,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "1b58583a4d3ae2cb525dac9cddfcfe98",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "PointLight 16",
+			"Transform": {
+				"Translation": {
+					"X": 1445.128662109375,
+					"Y": 416.46270751953127,
+					"Z": 456.9495544433594
+				}
+			},
+			"Color": {
+				"R": 0.9725499749183655,
+				"G": 0.9199800491333008,
+				"B": 0.8295699954032898,
+				"A": 0.47699999809265139
+			},
+			"Brightness": 8.640003204345704,
+			"CastVolumetricShadow": true,
+			"MinRoughness": 0.0,
+			"Radius": 119.49996948242188,
+			"FallOffExponent": 5.480000019073486
+		},
+		{
+			"ID": "368b6a44402301d1d52b92aae7c17c2d",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 3",
+			"Transform": {
+				"Translation": {
+					"X": 1031.421630859375,
+					"Y": 429.73590087890627,
+					"Z": -74.73973846435547
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.3583679795265198,
+					"Z": 0.0,
+					"W": 0.9335805177688599
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 0.2000001072883606,
+			"CastVolumetricShadow": true,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 600.0,
+			"OuterAngle": 49.69999694824219,
+			"InnerAngle": 22.80000114440918
+		},
+		{
+			"ID": "3ea10a0044dbe90af9e388a211ed644d",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 4",
+			"Transform": {
+				"Translation": {
+					"X": 1031.421630859375,
+					"Y": 429.73590087890627,
+					"Z": 184.26025390625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 0.2000001072883606,
+			"CastVolumetricShadow": true,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 600.0,
+			"OuterAngle": 49.69999694824219,
+			"InnerAngle": 22.80000114440918
+		},
+		{
+			"ID": "1da0c5c6494dd520a21d238db67d5ced",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 5",
+			"Transform": {
+				"Translation": {
+					"X": 1035.421630859375,
+					"Y": 428.73590087890627,
+					"Z": 440.26025390625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.8870108723640442,
+					"Z": 0.0,
+					"W": 0.4617486000061035
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 0.10000010579824448,
+			"CastVolumetricShadow": true,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 600.0,
+			"OuterAngle": 49.69999694824219,
+			"InnerAngle": 22.80000114440918
+		},
+		{
+			"ID": "dde67f6b486ae0b2959c75b01e392f1b",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 6",
+			"Transform": {
+				"Translation": {
+					"X": 1231.2637939453126,
+					"Y": 428.73590087890627,
+					"Z": 440.26025390625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": -0.0,
+					"W": -4.371138828673793e-8
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 0.10000010579824448,
+			"CastVolumetricShadow": true,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 600.0,
+			"OuterAngle": 49.69999694824219,
+			"InnerAngle": 22.80000114440918
+		},
+		{
+			"ID": "20279b3b4f9ad819856305a140a37713",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 7",
+			"Transform": {
+				"Translation": {
+					"X": 1428.812255859375,
+					"Y": 428.73590087890627,
+					"Z": 440.26025390625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.9304175972938538,
+					"Z": 0.0,
+					"W": 0.36650121212005618
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 81.16299438476563
+			},
+			"Brightness": 0.10000010579824448,
+			"CastVolumetricShadow": true,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 600.0,
+			"OuterAngle": 49.69999694824219,
+			"InnerAngle": 22.80000114440918
+		},
+		{
+			"ID": "70fea4514fe346bd378df3bd968438d6",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 8",
+			"Transform": {
+				"Translation": {
+					"X": 1185.4178466796876,
+					"Y": 395.23089599609377,
+					"Z": 634.8358154296875
+				},
+				"Orientation": {
+					"X": 0.16523835062980653,
+					"Y": 0.8146864175796509,
+					"Z": -0.280519038438797,
+					"W": 0.4798870086669922
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 4.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "fc2a9e3b41ac086473b9569927f593b4",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 9",
+			"Transform": {
+				"Translation": {
+					"X": 1164.4178466796876,
+					"Y": 395.23089599609377,
+					"Z": 633.8358154296875
+				},
+				"Orientation": {
+					"X": 0.13552045822143556,
+					"Y": -0.8426271677017212,
+					"Z": 0.24959762394428254,
+					"W": 0.45750921964645388
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 4.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "946a02e34da3c3d49c8126827c181582",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 10",
+			"Transform": {
+				"Translation": {
+					"X": 461.57403564453127,
+					"Y": 517.4908447265625,
+					"Z": 601.4035034179688
+				},
+				"Orientation": {
+					"X": 0.280519038438797,
+					"Y": -0.4798869490623474,
+					"Z": 0.1652383655309677,
+					"W": 0.8146864175796509
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 4.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "61545a664aa48030b7c38a8b578376b7",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 11",
+			"Transform": {
+				"Translation": {
+					"X": 461.57403564453127,
+					"Y": 517.4908447265625,
+					"Z": 601.4035034179688
+				},
+				"Orientation": {
+					"X": 0.30057328939437868,
+					"Y": 0.44838231801986697,
+					"Z": -0.16319791972637177,
+					"W": 0.8258180618286133
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 4.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "3647b0a340792f1345ac2aaec06dafa1",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 12",
+			"Transform": {
+				"Translation": {
+					"X": -154.4425506591797,
+					"Y": 399.4908447265625,
+					"Z": 95.27058410644531
+				},
+				"Orientation": {
+					"X": 0.30963367223739626,
+					"Y": 0.2921813130378723,
+					"Z": -0.10060608386993408,
+					"W": 0.8992416858673096
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 4.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "dbc2f87848d612f0d399ff8318446f50",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 13",
+			"Transform": {
+				"Translation": {
+					"X": -154.4425506591797,
+					"Y": 399.4908447265625,
+					"Z": 75.27058410644531
+				},
+				"Orientation": {
+					"X": 0.09114251285791397,
+					"Y": 0.8791531324386597,
+					"Z": -0.18686974048614503,
+					"W": 0.42879191040992739
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 4.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "343d403f4f77467540421291149f6d2e",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 14",
+			"Transform": {
+				"Translation": {
+					"X": -174.0,
+					"Y": 565.2174072265625,
+					"Z": -460.0
+				},
+				"Orientation": {
+					"X": 0.3220875561237335,
+					"Y": 0.4439569115638733,
+					"Z": -0.1748792827129364,
+					"W": 0.8176669478416443
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 1.1000001430511475,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "0e6f1a244a155b703550da813874f77b",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 15",
+			"Transform": {
+				"Translation": {
+					"X": -195.0,
+					"Y": 565.2174072265625,
+					"Z": -460.0
+				},
+				"Orientation": {
+					"X": 0.3905916213989258,
+					"Y": -0.40804407000541689,
+					"Z": 0.19901642203330995,
+					"W": 0.8008313775062561
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 1.1000001430511475,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "6e7c9d404ebbdc644649daaba47d10b1",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 16",
+			"Transform": {
+				"Translation": {
+					"X": -591.6657104492188,
+					"Y": 580.6552124023438,
+					"Z": 221.77577209472657
+				},
+				"Orientation": {
+					"X": 0.10409202426671982,
+					"Y": 0.8921027779579163,
+					"Z": -0.3514087498188019,
+					"W": 0.26425251364707949
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 1.1000001430511475,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "24b5554c41f812860a10b7a72abb84cb",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 17",
+			"Transform": {
+				"Translation": {
+					"X": -591.6657104492188,
+					"Y": 580.6552124023438,
+					"Z": 242.77574157714845
+				},
+				"Orientation": {
+					"X": 0.4169155955314636,
+					"Y": 0.27774274349212649,
+					"Z": -0.13546408712863923,
+					"W": 0.8548039793968201
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 1.1000001430511475,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "dfdbbde4430a3374759b50b521e92f69",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 18",
+			"Transform": {
+				"Translation": {
+					"X": -627.2330932617188,
+					"Y": 577.4681396484375,
+					"Z": 242.48316955566407
+				},
+				"Orientation": {
+					"X": 0.3514088988304138,
+					"Y": -0.2642524242401123,
+					"Z": 0.10409215837717056,
+					"W": 0.8921027183532715
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 1.5000001192092896,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 750.0,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		},
+		{
+			"ID": "0cacf85743b37f7ac11eed8df5b4f8e6",
+			"TypeName": "FlaxEngine.SpotLight",
+			"ParentID": "c2322ae9457764ca31d7c791871c8223",
+			"Name": "SpotLight 19",
+			"Transform": {
+				"Translation": {
+					"X": -627.2330932617188,
+					"Y": 577.4681396484375,
+					"Z": 221.4832305908203
+				},
+				"Orientation": {
+					"X": -0.13546408712863923,
+					"Y": 0.8548039197921753,
+					"Z": -0.4169156849384308,
+					"W": -0.2777426242828369
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.8720778226852417,
+				"B": 0.5844029188156128,
+				"A": 1.0
+			},
+			"Brightness": 5.800000190734863,
+			"ShadowsDistance": 5000.0,
+			"ShadowsFadeDistance": 500.0,
+			"ShadowsDepthBias": 0.004999999888241291,
+			"Radius": 755.5999755859375,
+			"OuterAngle": 52.19999694824219,
+			"InnerAngle": 31.5
+		}
+	]
+}
